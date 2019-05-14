@@ -5,5 +5,5 @@
 export PENTAHO_ENV=$(basename $PWD)
 export PROJECT_NAME=$(basename $(dirname $(dirname $PWD)))
 
-cd "$PWD"/../../framework/configuration
+cd "$PWD"/../../$PROJECT_NAME/framework/configuration
 sh start-pentaho.sh "$@"

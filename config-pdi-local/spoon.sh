@@ -9,5 +9,5 @@ export PROJECT_NAME=$(basename $(dirname $PWD) -configuration) #removing -config
 echo "***" Setting PENTAHO_ENV to $PENTAHO_ENV "***"
 echo "***" Setting PROJECT_NAME to $PROJECT_NAME "***"
 
-cd "$PWD"/../../framework/configuration
+cd "$PWD"/../../$PROJECT_NAME/framework/configuration
 sh spoon.sh
