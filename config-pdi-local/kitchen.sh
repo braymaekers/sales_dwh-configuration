@@ -1,12 +1,12 @@
 #! /bin/sh
-#PENTAHO_ENV = current folder name, eg. config-pdi-local
 #PROJECT_NAME = current project name, eg. sales_dwh
+#PROJECT_ENV = current folder name, eg. config-pdi-local
 
-export PENTAHO_ENV=$(basename $PWD)
 export PROJECT_NAME=$(basename $(dirname $PWD) -configuration) #removing -configuration from dir name
+export PROJECT_ENV=$(basename $PWD)
 
-echo "***" Setting PENTAHO_ENV to $PENTAHO_ENV "***"
 echo "***" Setting PROJECT_NAME to $PROJECT_NAME "***"
+echo "***" Setting PROJECT_ENV to $PROJECT_ENV "***"
 
-cd "$PWD"/../../framework/configuration
+cd "$PWD"/../../framework/bin
 sh kitchen.sh "$@"
