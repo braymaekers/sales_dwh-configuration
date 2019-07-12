@@ -1,5 +1,5 @@
 #Kettle Properties file
-#Fri Jul 12 12:57:35 CEST 2019
+#Fri Jul 12 13:08:30 CEST 2019
 AskAboutReplacingDatabases=N
 AutoCollapseCoreObjectsTree=Y
 AutoSave=N
@@ -608,8 +608,8 @@ TabColorR=200
 TipNr=1
 UseDBCache=Y
 filetype10=Trans
-filetype1=Trans
-filetype2=Job
+filetype1=Job
+filetype2=Trans
 filetype3=Job
 filetype4=Job
 filetype5=Job
@@ -628,8 +628,8 @@ lastdir7=
 lastdir8=
 lastdir9=
 lastfile10=
-lastfile1=/Users/bepraymaekers/Documents/GitHub/framework/tests/tr_test_executor.ktr
-lastfile2=/Users/bepraymaekers/Documents/GitHub/framework/tests/jb_main_test_executor.kjb
+lastfile1=/Users/bepraymaekers/Documents/GitHub/framework/tests/jb_main_test_executor.kjb
+lastfile2=/Users/bepraymaekers/Documents/GitHub/framework/tests/tr_test_executor.ktr
 lastfile3=/Users/bepraymaekers/Documents/GitHub/framework/content-pdi/execution/jb_launcher.kjb
 lastfile4=/Users/bepraymaekers/Documents/GitHub/framework/content-pdi/utilities/jb_load_work_unit_env.kjb
 lastfile5=/Users/bepraymaekers/Documents/GitHub/framework/content-pdi/utilities/jb_load_job_env.kjb
